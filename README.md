@@ -5,4 +5,5 @@ https://my-premier-league.netlify.app/
 <br>
 <h3>React Router</h3>
 <h3>React Bootstrap</h3>
+<h5>Responsive</h5>
 <h3>React Font Awesome, Brand Font Awesome</h3>
