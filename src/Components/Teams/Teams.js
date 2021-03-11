@@ -3,7 +3,7 @@ import { Button } from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faArrowRight} from '@fortawesome/free-solid-svg-icons'
 import { useHistory } from 'react-router';
-import css from '../Teams/Teams.css'
+import '../Teams/Teams.css'
 const Teams = (props) => {
     const {idTeam, strTeam, strLeague, strTeamBadge} = props.team;
     const history = useHistory();

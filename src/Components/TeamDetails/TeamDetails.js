@@ -47,10 +47,10 @@ const TeamDetails = (props) => {
             </div>
             </div>
             <div className="icon">
-                <a  target="_blank" href={`https://${strWebsite}`}><FontAwesomeIcon className="brand-icon" icon={faGlobe} /></a>
-                <a className="fb-icon" target="_blank" href={`https://${strFacebook}`}><FontAwesomeIcon className="brand-icon" icon={faFacebook} /></a>
-                <a className="twit-icon" target="_blank" href={`https://${strTwitter}`}><FontAwesomeIcon className="brand-icon" icon={faTwitterSquare} /></a>
-                <a className="instra-icon" target="_blank" href={`https://${strInstagram}`}><FontAwesomeIcon className="brand-icon" icon={faInstagram} /></a>
+                <a  href={`https://${strWebsite}`}><FontAwesomeIcon className="brand-icon" icon={faGlobe} /></a>
+                <a className="fb-icon" href={`https://${strFacebook}`}><FontAwesomeIcon className="brand-icon" icon={faFacebook} /></a>
+                <a className="twit-icon" href={`https://${strTwitter}`}><FontAwesomeIcon className="brand-icon" icon={faTwitterSquare} /></a>
+                <a className="instra-icon" href={`https://${strInstagram}`}><FontAwesomeIcon className="brand-icon" icon={faInstagram} /></a>
                 
             </div>
         </div>
