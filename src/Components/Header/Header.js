@@ -1,7 +1,7 @@
 import React from 'react';
 import Premier from '../../Photo/Premier.png';
 import stadium from '../../Photo/stadium.jpg';
-import css from '../Header/Header.css'
+import '../Header/Header.css'
 
 const Header = () => {
     return (

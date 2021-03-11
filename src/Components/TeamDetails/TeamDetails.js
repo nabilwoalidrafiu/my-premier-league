@@ -2,7 +2,7 @@ import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faFlag, faFutbol, faMars, faClock, faGlobe, faVenus} from '@fortawesome/free-solid-svg-icons'
 import { faTwitterSquare, faFacebook, faInstagram} from "@fortawesome/free-brands-svg-icons";
-import css from '../TeamDetails/TeamDetails.css'
+import '../TeamDetails/TeamDetails.css'
 import male from '../../Photo/male.png'
 import female from '../../Photo/female.png'
 import Topbar from '../Topbar/Topbar';
