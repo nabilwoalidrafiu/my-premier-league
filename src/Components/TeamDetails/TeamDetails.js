@@ -21,7 +21,7 @@ const TeamDetails = (props) => {
             <div className="team-info row d-flex justify-content-around pt-5 pb-5 mt-5">
                 <div className="col-sm-12 col-md-5 d-flex justify-content-center align-items-center">
                     <div className="text-sm-center text-md-left">
-                        <h1>{strTeam}</h1>
+                        <h1 style={{fontSize:'60px'}}>{strTeam}</h1>
                         <h6><FontAwesomeIcon icon={faClock}/> Founded Year: {intFormedYear}</h6>
                         <h6><FontAwesomeIcon icon={faFlag}/> Country: {strCountry}</h6>
                         <h6><FontAwesomeIcon icon={faFutbol}/> Sport Type: {strSport}</h6>
