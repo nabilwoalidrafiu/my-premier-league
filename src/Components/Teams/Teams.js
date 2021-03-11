@@ -5,7 +5,7 @@ import { faArrowRight} from '@fortawesome/free-solid-svg-icons'
 import { useHistory } from 'react-router';
 import css from '../Teams/Teams.css'
 const Teams = (props) => {
-    const {idTeam, strTeam, strLeague, strTeamBadge, strFacebook} = props.team;
+    const {idTeam, strTeam, strLeague, strTeamBadge} = props.team;
     const history = useHistory();
     const handleClickExplore = (idTeam) =>{
         history.push(`/team/${idTeam}`)
